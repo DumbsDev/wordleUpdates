@@ -8,7 +8,7 @@ import random
 # netstat -ano | findstr :40676
 # taskkill /PID <PID> /F
 
-version = '0.0.1'
+version = '0.0.2'
 versionURL = "https://raw.githubusercontent.com/DumbsDev/wordleUpdates/main/version.txt"
 versionCheck = requests.get(versionURL)
 neededVersion = ''
@@ -184,7 +184,7 @@ def playTime(pType):
                     return SetWord()
                 else:
                     return word.lower()
-            word = SetWord()
+            # word = SetWord()
             #endregion
                 #region The game
             
